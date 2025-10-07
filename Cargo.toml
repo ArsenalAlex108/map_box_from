@@ -1,0 +1,9 @@
+[package]
+name = "map_box_from"
+version = "0.1.0"
+edition = "2024"
+description = "Adds `Box`-ed versions of `From` and `Into` traits - allowing implementations for unsized type parameters and following looser guidelines."
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+tap = "1.0.1"
